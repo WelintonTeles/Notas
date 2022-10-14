@@ -1,0 +1,5 @@
+git init -> "inicia" o git na pasta selecionada 
+git status -> verifica os status dos arquivos, se subiram para o controle de versão, se sofreram alteração etc
+git add "NomeDoArquivo.txt" -> para adicionar ao controle de versão
+git add . -> adiciona todos arquivos ao controle de versão "idepentende do tipo do arquivos"
+
