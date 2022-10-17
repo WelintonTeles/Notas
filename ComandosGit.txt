@@ -2,4 +2,12 @@ git init -> "inicia" o git na pasta selecionada
 git status -> verifica os status dos arquivos, se subiram para o controle de versão, se sofreram alteração etc
 git add "NomeDoArquivo.txt" -> para adicionar ao controle de versão
 git add . -> adiciona todos arquivos ao controle de versão "idepentende do tipo do arquivos"
-
+git commit -m "MensagemDoQueFoiFeito" -> criar a versão ou atualizar a versão o "-m" é para dizer o que foi feito na versão que esta sendo upada
+git push -> para subir os arquivos para o GitHub
+git remote add origin -> para informar o repositorio que seram armazenados os arquivos
+git reflog -> para ver o historico de versão do Git/GitHub
+git reset --hard IdDaVersão -> para puxar uma versão mais antiga para a maquina local
+git branch -> mostra as branchs disponiveis (as branchs são como "pastas" usadas para dividir os trabalhos e ou estagios de um codigo)
+git checkout NomeDaBranch -> para alterar a branch que você esta trabalhando
+git merge NomeDaBranch -> (OBS:executar um PULL para puxar os arquivos atualizados da branch principal) para importar os arquivos modificados para outra branch (OBS:apos executar o MERGE deve ser executado um PUSH)
+  
